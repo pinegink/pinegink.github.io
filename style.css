@@ -79,6 +79,19 @@ a:hover {
 	color: white;
 	transition: 0.3s;
 }
+.intro span.small{
+	font-size: 16px;
+}
+.intro span.highlight-red-small {
+	font-size: 16px;
+	background-color: darkred;
+	color: white;
+	transition: 0.3s;
+}.intro span.highlight-red-small:hover {
+	 background-color: red;
+	 color: white;
+	 transition: 0.3s;
+ }
 
 @media (max-width: 360px) {
 	.intro {
@@ -97,4 +110,7 @@ a:hover {
 	table {
 		float: none;
 	}
+}
+.small{
+	font-size: 10px;
 }
